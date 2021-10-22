@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+.head{
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    
+}
+.brand{
+    text-align: center;
+    z-index: 10;
+    cursor: grab;
+}
+.anime-name{
+
+
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    color: blueviolet;
+}
+body{
+    text-align:  center;
+}
+.anime-image{
+    height: 450px;
+}
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  @keyframes psychadelic {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+ 
+
+  .head {
+    animation: spin 3s ease-in-out infinite;
+  }
+  
