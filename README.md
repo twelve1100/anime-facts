@@ -1,2 +1,2 @@
 # anime-facts
-echo " fact.html"
+fact.html
